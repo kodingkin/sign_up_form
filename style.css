@@ -4,6 +4,7 @@
     width: 100vw;
     height: 95vh;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .photo-container {
@@ -18,25 +19,62 @@
 .form-container {
     width: 60vw;
     height: 100vh;
+    display: block;
 }
 
 .header {
     width: 100%;
     height: 35vh;
+    padding: 10vh 6vh 6vh 6vh;
+    box-sizing: border-box;
     background-color: lightgrey;
 }
 
 .header>.upper-text {
     color: black;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .form {
     height: 30vh;
     width: 100%;
+    padding-left: 5rem;
+}
+
+.legend {
+    padding-bottom: 1rem;
+}
+
+.input {
+    padding-right: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    row-gap: 1rem;
+}
+
+.input>div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: xx-small;
+}
+  
+input:invalid {
+    border-color: red;
 }
 
 .footer {
     height: 35vh;
     width: 100%;
+    padding: 2rem;
     background-color: lightgrey;
+}
+
+.createAC {
+    margin-bottom: 1rem;
 }
