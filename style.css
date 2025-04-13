@@ -91,12 +91,12 @@ html, body {
 }
 
 .input {
-    padding-right: 30vmax;
+    padding-right: 25vmax;
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     row-gap: 3vmax;
 }
 
